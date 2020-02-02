@@ -4,7 +4,7 @@ end
 
 def find_max_value(array)
   array.sort!
-  index= array.length
+  index= array.last
   
   return array[index]
 end
