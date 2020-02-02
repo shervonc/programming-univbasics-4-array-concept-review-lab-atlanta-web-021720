@@ -20,6 +20,7 @@ array.length.times do |count|
     return count
   end
 end
+end
 def find_max_value(array)
   array.sort!
     puts array.last
