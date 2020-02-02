@@ -6,7 +6,7 @@ def find_max_value(array)
   array.sort!
   index= array.length
   
-  puts array[index]
+  return array[index]
 end
 
 def find_min_value(array)
