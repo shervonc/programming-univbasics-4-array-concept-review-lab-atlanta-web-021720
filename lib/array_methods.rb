@@ -6,6 +6,7 @@ puts array.index(value_to_find)
 # count = 0
 # while count < array.length do
 # array.index(value_to_find[count])
+#count += 1
 #end
 end
 
