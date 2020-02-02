@@ -1,6 +1,6 @@
 def find_element_index(array, value_to_find) # method 1 use block paramter
 array.index(value_to_find) {|value_to_find|
-puts array.index(value_to_find)
+return array.index(value_to_find)
 }
 end
 
