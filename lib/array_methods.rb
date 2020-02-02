@@ -1,9 +1,9 @@
-#def find_element_index(array, value_to_find) # method 1
+#def find_element_index(array, value_to_find) # method 1 use block paramter
 #array.index(value_to_find) {|value_to_find|
 #puts array.index(value_to_find)
 #}
 #end
-def find_element_index(array, value_to_find) # method 2
+def find_element_index(array, value_to_find) # method 2 use wuhile and if statments
  count = 0
  while count < array.length do
  if array[count] == value_to_find
