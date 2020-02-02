@@ -7,7 +7,8 @@ def find_element_index(array, value_to_find) # method 2
  count = 0
  while count < array.length do
  array[count] == value_to_find
-return count
+  return count
+end
 count += 1
 end
 nil
