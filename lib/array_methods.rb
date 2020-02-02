@@ -29,11 +29,11 @@ end
 # return array.find_index(value_to_find)
 # end
 
-def find_max_value(array)
-  array.sort!
-    puts array.last
-    array.last
-   end
+# def find_max_value(array)
+#   array.sort!
+#     puts array.last
+#     array.last
+#   end
 
 def find_min_value(array)
   array.sort!
