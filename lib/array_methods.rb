@@ -40,6 +40,7 @@ end
    if array[index] > x
      x = array[index]
    end
+   }
  end
   
 
