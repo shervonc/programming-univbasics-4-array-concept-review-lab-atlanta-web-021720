@@ -14,8 +14,9 @@
 #end
 #nil
 #end
+def find_element_index(array, value_to_find) # method 3
 
-
+end
 def find_max_value(array)
   array.sort!
     puts array.last
