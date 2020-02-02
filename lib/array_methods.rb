@@ -34,6 +34,8 @@ end
 #     puts array.last
   #   array.last
   # end
+  
+  
 
 def find_min_value(array)
   array.sort!
