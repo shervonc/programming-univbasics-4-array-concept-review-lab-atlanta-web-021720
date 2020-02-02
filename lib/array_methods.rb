@@ -15,7 +15,7 @@
 #nil
 #end
 
-# def find_element_index(array, value_to_find) # method 3
+# def find_element_index(array, value_to_find) # method 3 use block and if
 # array.length.times do |count|
 #   if array[count] == value_to_find
 #     return count
