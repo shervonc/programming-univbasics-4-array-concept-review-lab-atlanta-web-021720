@@ -29,12 +29,18 @@ end
 # return array.find_index(value_to_find)
 # end
 
-# def find_max_value(array)
+# def find_max_value(array) Method 1 using sort
 #   array.sort!
 #     puts array.last
   #   array.last
   # end
-  
+ def find_max_value(array)
+   array[0] = x
+   array.length.times { |index|
+   if array[index] > x
+     x = array[index]
+   end
+ end
   
 
 def find_min_value(array)
