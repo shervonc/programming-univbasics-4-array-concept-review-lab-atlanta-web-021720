@@ -41,6 +41,7 @@ end
      x = array[index]
    end
    }
+   x
  end
   
 
