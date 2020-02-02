@@ -24,7 +24,7 @@
 #       end
 # end
 def find_element_index(array, value_to_find)
- return array.index_find(value_to_find)
+ return array.find_index(value_to_find)
 end
 def find_max_value(array)
   array.sort!
