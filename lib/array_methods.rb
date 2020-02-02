@@ -34,19 +34,19 @@ end
 #     puts array.last
   #   array.last
   # end
-# def find_max_value(array) # method 2 using block and if
-#   x = array[0]
-#   array.length.times { |index|  if array[index] > x
-#   x = array[index]
-#   end
-#   }
-#   x
-# end
-def find_max_value(array)
-  x = 0
-  array.length.times { |index| x = array[index] if array[index] > x }
+def find_max_value(array) # method 2 using block and if
+  x = array[0]
+  array.length.times { |index|  if array[index] > x
+  x = array[index]
+  end
+  }
   x
 end
+# def find_max_value(array) # method 3 using block and if
+#   x = 0
+#   array.length.times { |index| x = array[index] if array[index] > x }
+#   x
+# end
   
 
 # def find_min_value(array) # Method 1 use sort
