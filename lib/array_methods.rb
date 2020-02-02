@@ -1,8 +1,8 @@
-#def find_element_index(array, value_to_find) # method 1 use block paramter
-#array.index(value_to_find) {|value_to_find|
-#puts array.index(value_to_find)
-#}
-#end
+def find_element_index(array, value_to_find) # method 1 use block paramter
+array.index(value_to_find) {|value_to_find|
+puts array.index(value_to_find)
+}
+end
 
 #def find_element_index(array, value_to_find) # method 2 use wuhile and if statments
 # count = 0
@@ -23,9 +23,11 @@
 #         nil
 #       end
 # end
-def find_element_index(array, value_to_find)
- return array.find_index(value_to_find)
-end
+
+# def find_element_index(array, value_to_find) #method 4 use .find_index
+# return array.find_index(value_to_find)
+# end
+
 def find_max_value(array)
   array.sort!
     puts array.last
