@@ -5,8 +5,8 @@
 #end
 def find_element_index(array, value_to_find) # method 2
  count = 0
- if count < array.length do
- array[count] == value_to_find
+ while count < array.length do
+ if array[count] == value_to_find
   return count
 end
 count += 1
