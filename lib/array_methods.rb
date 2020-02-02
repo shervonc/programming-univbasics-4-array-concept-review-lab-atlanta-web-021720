@@ -25,7 +25,7 @@ end
 #nil
 # end
 
-# def find_element_index(array, value_to_find) #method 4 use .find_index
+# def find_element_index(array, value_to_find) #method 4 use find_index
 # return array.find_index(value_to_find)
 # end
 
