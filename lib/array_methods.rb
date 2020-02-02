@@ -1,19 +1,18 @@
-def find_element_index(array, value_to_find)
-
-array.index(value_to_find) {|value_to_find|
-puts array.index(value_to_find)
-}
-
+#def find_element_index(array, value_to_find) # method 1
+#array.index(value_to_find) {|value_to_find|
+#puts array.index(value_to_find)
+#}
+#end
+def find_element_index(array, value_to_find) # method 2
+ count = 0
+ while count < array.length do
+ array[count] == value_to_find
+count += 1
+return count
 end
-#def find_element_index(array, value_to_find)
-# count = 0
-# while count < array.length do
-# array[count] == value_to_find
-#count += 1
-#return count
-#end
-#nil
-#end
+nil
+end
+
 def find_max_value(array)
   array.sort!
     puts array.last
